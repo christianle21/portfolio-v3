@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Le's Portfolio</title>
+  <link rel="webtag icon" href="https://iconsplace.com/wp-content/uploads/_icons/000000/256/png/letter-m-icon-256.png"
+    alt="m icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Christian Le</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span>
+          <div class="icons8-menu"></div>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav text-center">
+          <li class="navbar-item">
+            <a class="navbar-link" aria-current="page" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="navbar-link" href="#contact">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselProjects" class="carousel rotate" data-bs-ride="carousel">
+    <div class="carousel-projects">
+      <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselProjects" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./assets/select.png" class="d-block w-100" alt="selectnutrition">
+        <a href="http://selectnutrition.herokuapp.com/" target="_blank"><button type="button" class="btn btn-light">Select Nutrition Website</button></a>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/covid19.png" class="d-block w-100" alt="covid-19">
+        <a href="https://learn-about-covid-19.github.io/know-about-covid-19/" target="_blank"><button type="button"
+            class="btn btn-light">Covid-19 Tracker</button></a>
+      </div>
+      <div class="carousel-item">
+        <img src="./assets/weather.png" class="d-block w-100" alt="weather">
+        <a href="https://christianle21.github.io/hows-the-weather/" target="_blank"><button type="button"
+            class="btn btn-light btn-lg">Weather App</button></a>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselProjects"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselProjects"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <main class="container container-fluid mt-main">
+    <div class="container main">
+
+      <h3 id="about">About Me</h3>
+      <p class="lead mb-3"> My name is Christian Le and I am currently a taking a 
+        full-stack web development coding bootcamp at UCSD. 
+        I have an ever-growing passion for computers and coding.
+        I have worked in the biotech and marketing industry but
+        however, I want to do something related to coding now. 
+      </p>
+    </div>
+  </main>
+
+  <div class="container work-area">
+    <h3 id="work">My Work</h3>
+    <div class="row mt-5 purple">
+      <div class="col-md-8">
+        <a href="http://selectnutrition.herokuapp.com/" target="_blank"><img
+            src="./assets/select.png" alt="selectnutrition" class="image"></a>
+      </div>
+      <div class="vert-center
+      col-md-4 mt-3">
+        <a class="text" href="http://selectnutrition.herokuapp.com/" target="_blank">
+          <h5>Select Nutrition Website<a href="http://selectnutrition.herokuapp.com/" target="_blank"><i
+                class="fa fa-github gicon" style="font-size:30px"></i></a><br><br><span class="project-text">HTML/CSS/JavaScript/
+                  MySQL/MVC</span>
+            <p class="lead mt-2">A mock website I helped create for a local small business in San Diego.</p>
+          </h5>
+        </a>
+      </div>
+    </div>
+    <div class="row-r mt-5">
+      <div class="vert-center col-md-4 mt-3" >
+        <a class="text" href="https://learn-about-covid-19.github.io/know-about-covid-19/" target="_blank">
+          <h5>Covid-19 Tracker<a href="https://learn-about-covid-19.github.io/know-about-covid-19/" target="_blank"><i class="fa fa-github gicon"
+                aria-hidden="true" style="font-size:30px"></i></a><br><br><span class="project-text">HTML/CSS/JavaScript</span>
+            <p class="lead mt-2">A website that allows you to enter any country and see what their covid-19 travel guidelines are like.</p>
+          </h5>
+        </a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://learn-about-covid-19.github.io/know-about-covid-19/" target="_blank"><img src="./assets/covid19.png" alt="covid-19"
+            class="image" ></a>
+      </div>
+    </div>
+    <div class="row mt-5 purple">
+      <div class="col-md-8">
+        <a href="https://christianle21.github.io/hows-the-weather/" target="_blank"><img
+            src="./assets/weather.png" alt="weather" class="image"></a>
+      </div>
+      <div class="vert-center
+      col-md-4 mt-3">
+        <a class="text" href="https://christianle21.github.io/hows-the-weather/" target="_blank">
+          <h5>Weather App<a href="https://christianle21.github.io/hows-the-weather/" target="_blank"><i
+                class="fa fa-github gicon" style="font-size:30px"></i></a><br><br><span class="project-text">HTML/CSS/JavaScript/OpenweatherAPIs</span>
+            <p class="lead mt-2">Allows you to check the forecast for whatever city you would like to view in the U.S. Displays the weather for the searched city for a 5-day forecast.</p>
+          </h5>
+        </a>
+      </div>
+    </div>
+    <div class="row-r mt-5">
+      <div class="vert-center col-md-4 mt-3">
+        <a class="text" href="https://github.com/christianle21/whats-the-password" target="_blank">
+          <h5>Password Generator<a href="https://github.com/christianle21/whats-the-password" target="_blank"><i
+                class="fa fa-github gicon" aria-hidden="true" style="font-size:30px"></i></a><br><br><span
+              class="project-text">HTML/CSS/JavaScript</span>
+            <p class="lead mt-2">Generates a password for you with certain criterias to make your new password secure.</p>
+          </h5>
+        </a>
+      </div>
+      <div class="col-md-8">
+        <a href="https://github.com/christianle21/whats-the-password" target="_blank"><img src="./assets/password.jpg"
+            alt="password" class="image"></a>
+      </div>
+    </div>
+    <div class="row mt-5 purple">
+      <div class="col-md-8">
+        <a href="https://christianle21.github.io/the-only-coding-quiz-worth-trying/" target="_blank"><img src="./assets/quiz.png" alt="codequiz"
+            class="image"></a>
+      </div>
+      <div class="vert-center col-md-4 mt-3">
+        <a class="text" href="https://christianle21.github.io/the-only-coding-quiz-worth-trying/" target="_blank">
+          <h5>Code Quiz<a href="https://christianle21.github.io/the-only-coding-quiz-worth-trying/" target="_blank"><i
+                class="fa fa-github gicon" aria-hidden="true" style="font-size:30px"></i></a><br><br><span
+              class="project-text">HTML/CSS/JavaScript</span>
+            <p class="lead mt-2">A quiz based on simple coding knowledge. Tracks your score and also has a scoreboard to see how well you did.</p>
+          </h5>
+        </a>
+      </div>
+    </div>
+
+    <br>
+    <h5 class="text-center mb-3"> Fluent Programming Languages:</h5><br>
+    <div class="container display text-center">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <span class="badge rounded">HTML</span>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <span class="badge rounded">CSS/Bootstrap</span>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <span class="badge rounded">JavaScript</span>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <span class="badge rounded">Web APIs</span>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <span class="badge rounded">Node.js/Express.js</span>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+          <span class="badge rounded">MySQL</span>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+  <div class="row mt-5">
+    <div class="col-md-6">
+      <img class="image" src="./assets/me.jpg" alt="terrible LinkedIn profile picture">
+    </div>
+    <div class="vert-center
+      col-md-6">
+      <div>
+        <h3 id="contact">Contact Me (Final Message)</h3>
+        <p class="lead">A mix of iconic and psychotic. In all seriousness, i'm an aspiring web developer who is trying their best improve their skills daily. 
+            Proud of what i've done so far but I still have a ways to go. I hope you enjoy what you've seen from my portfolio and monitor my progress. 
+            This is only the beginning. Click the links below to contact me (and hopefully set up an interview to hire me).</p>
+
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="mailto: christianle21@yahoo.com" target="_blank"><i style="font-size:23px"
+                class="fa list-item">&#xf0e0;</i></a></li>
+          <li class="list-inline-item"><a href="https://www.linkedin.com/in/thechristianle/" target="_blank"><i
+                class="fa fa-linkedin list-item" aria-hidden="true" style="font-size:30px"></i></a></li>
+          <li class="list-inline-item"><a href="https://github.com/christianle21/" target="_blank"><i
+                class="fa fa-github list-item" aria-hidden="true" style="font-size:30px"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="contact-container">
+  </div>
+
+  <footer class="bd-footer py-5">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-3 mb-3">
+          <a href="#">
+            <h2 class="fs-5">CHRISTIAN LE'S PORTFOLIO</h2>
+          </a>
+          <ul class="list-unstyled small text-muted">
+            <li class="mb-2">Created by Christian Le | Expected Coding Bootcamp Graduation Date: May 2022</li>
+            <li><a href="https://icons8.com/icon/82749/menu">Menu Icon by Icons8</a></li>
+            <li class="mb-2">© 2022 Christian Le | Student of UCSD Coding Bootcamp</li>
+
+          </ul>
+        </div>
+        <div class="col-6 col-lg-4 offset-lg-1 mb-3">
+          <h5>Website Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#">Home</a></li>
+            <li class="mb-2"><a href="#about">About</a></li>
+            <li class="mb-2"><a href="#work">My Work</a></li>
+            <li class="mb-2"><a href="#contact">Contact</a></li>
+            <li class="mb-2"><a
+                href="./assets/ Le Resume revised.docx.pdf"
+                target="_blank">Resume</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-4 mb-3">
+          <h5>Professional Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="mailto: christianle21@yahoo.com" target="_blank">Email</a></li>
+            <li class="mb-2"><a href="https://www.linkedin.com/in/thechristianle/" target="_blank">Linkedin</a></li>
+            <li class="mb-2"><a href="https://github.com/christianle21/" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+</html>
